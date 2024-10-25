@@ -7,7 +7,7 @@ Este repositório contém dois scripts distintos para facilitar a instalação e
 1. **Splunk Manager Script**: Automate a instalação e remoção do Splunk no Linux.
 2. **Splunk Universal Forwarder & Sysmon Setup**: Automatiza a instalação do Splunk Universal Forwarder e Sysmon no Windows.
 
-Os scripts foram criados por **Lyon.**, com foco em simplificar a gestão do Splunk em diferentes plataformas.
+Os scripts foram criados por **Lyon**, com foco em simplificar a gestão do Splunk em diferentes plataformas.
 
 ## Splunk Manager Script (Linux)
 
@@ -18,6 +18,7 @@ Este script facilita a instalação e remoção do Splunk no Linux. Ele também 
 - **Instalar Splunk**: Faz o download da versão especificada, instala, e aplica as configurações necessárias.
 - **Configuração das Portas (8000, 9997)**: Configura o firewall usando `iptables` ou `ufw`.
 - **Remover Splunk**: Remove completamente o Splunk do sistema.
+- **Reiniciar Serviço Splunk**: Reinicia o serviço Splunk após a instalação ou configuração.
 - **Resumo da Instalação**: Exibe informações útis ao final do processo de instalação.
 
 ### Utilização
@@ -34,7 +35,8 @@ Este script facilita a instalação e remoção do Splunk no Linux. Ele também 
    - **1**: Instalar Splunk.
    - **2**: Remover Splunk.
    - **3**: Remover e reinstalar Splunk.
-   - **4**: Sair.
+   - **4**: Reiniciar Serviço Splunk.
+   - **5**: Sair.
 
 3. **Exemplo de Execução**:
    
@@ -59,7 +61,8 @@ Este script automatiza a configuração do Splunk Universal Forwarder (UF) e do 
 - **Instalar Splunk UF**: Instala e configura o Splunk Universal Forwarder.
 - **Instalar Sysmon**: Instala o Sysmon com a configuração do Sysvol.
 - **Aplicar Configurações Customizadas**: Define configurações específicas do Splunk, como `inputs.conf` e `outputs.conf`.
-- **Menu Interativo**: Permite realizar instalação, configuração, remoção e atualização do UF e Sysmon de maneira interativa.
+- **Reiniciar Serviços**: Opção para reiniciar os serviços Splunk e Sysmon.
+- **Menu Interativo**: Permite realizar instalação, configuração, remoção, atualização e reinício dos serviços do UF e Sysmon de maneira interativa.
 
 ### Utilização
 
@@ -79,8 +82,10 @@ Este script automatiza a configuração do Splunk Universal Forwarder (UF) e do 
    - **2**: Instalar e configurar Sysmon.
    - **3**: Instalar Splunk UF e Sysmon juntos.
    - **4**: Atualizar a configuração do Sysmon.
-   - **5-8**: Opções de remoção do Splunk UF e Sysmon.
-   - **9**: Sair do script.
+   - **5**: Reiniciar Serviço Splunk.
+   - **6**: Reiniciar Serviço Sysmon.
+   - **7-10**: Opções de remoção do Splunk UF e Sysmon.
+   - **11**: Sair do script.
 
 4. **Exemplo de Execução**:
    
@@ -102,8 +107,9 @@ Este script automatiza a configuração do Splunk Universal Forwarder (UF) e do 
 
 ## Autor
 
-**Lyon.**  
-*Threat Hunting Specialist* 
+**Lyon**  
+*Threat Hunting Specialist*  
+
 
 ## Licença
 
