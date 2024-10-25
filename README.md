@@ -7,7 +7,7 @@ Este repositório contém dois scripts distintos para facilitar a instalação e
 1. **Splunk Manager Script**: Automate a instalação e remoção do Splunk no Linux.
 2. **Splunk Universal Forwarder & Sysmon Setup**: Automatiza a instalação do Splunk Universal Forwarder e Sysmon no Windows.
 
-Os scripts foram criados por **Ailton Rocha (ailton.rocha@telefonica.com)**, com foco em simplificar a gestão do Splunk em diferentes plataformas.
+Os scripts foram criados por **Lyon.**, com foco em simplificar a gestão do Splunk em diferentes plataformas.
 
 ## Splunk Manager Script (Linux)
 
@@ -102,9 +102,8 @@ Este script automatiza a configuração do Splunk Universal Forwarder (UF) e do 
 
 ## Autor
 
-**Ailton Rocha**  
-*Threat Hunting Specialist*  
-E-mail: ailton.rocha@telefonica.com
+**Lyon**  
+*Threat Hunting Specialist* 
 
 ## Licença
 
