@@ -102,7 +102,7 @@ Este script automatiza a configuração do Splunk Universal Forwarder (UF) e do 
 
 ## Autor
 
-**Lyon**  
+**Lyon.**  
 *Threat Hunting Specialist* 
 
 ## Licença
