@@ -16,7 +16,7 @@ $InputsConfPath = "$NetworkSharePath\inputs.conf"
 $OutputsConfPath = "$NetworkSharePath\outputs.conf"
 $TarPath = "$NetworkSharePath\tar.exe"  # Caminho do tar.exe fornecido
 $SplunkAdminUser = "administrador"
-$SplunkAdminPassword = "soiUwigR2@RmHO*j!4v6"
+$SplunkAdminPassword = "XXXXXXXXXXXXXXXX"
 
 # Funções auxiliares
 # Função para verificar a existência do arquivo
@@ -286,3 +286,4 @@ function Show-Menu {
 
 # Executa o menu
 Show-Menu
+
